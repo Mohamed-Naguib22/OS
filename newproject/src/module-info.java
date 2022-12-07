@@ -3,5 +3,5 @@ module newproject {
 	requires javafx.graphics;
 	requires javafx.fxml;
 	
-	opens application to javafx.graphics, javafx.fxml;
+	opens BankingSystem to javafx.graphics, javafx.fxml;
 }
